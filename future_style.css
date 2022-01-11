@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*working on header for page*/
+.header_box {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+  background: black;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.rap_logo {
+  float: left;
+  padding: 10px 0;
+  width: 79px;
+  height: 79px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin-left: 70px; 
+  padding-top: 25px;
+}
+nav, ul, li, a{
+  color: red;
+  text-decoration: none; 
+  transition: all 0.5s ease;
+}
+nav a:hover{
+   color: #753BBD;
+}
+
+
+/*working on footer*/
+footer{
+  background-color: black;
+  padding-top: 20px;
+}
+.footer_row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: bl;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: red;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 13px;
+	text-transform: capitalize;
+	color: red;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	padding-top: 10px;
+}
+/*animation for footer items*/
+.footer-col ul li a:hover{
+	text-decoration: underline;
+  color: #753BBD;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: red;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #753BBD;
+	background-color: black;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
