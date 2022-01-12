@@ -148,13 +148,75 @@ ul{
 .content{
 color: red;
 font-size: 25px;
-padding-bottom: 12px;
+padding-bottom: 10px;
+text-align: center;
 }
 .content_p{
 color: red;
 font-size: 15px;
 padding-bottom: 50px;
+padding-left: 10px;
+}
+.link{
+  font-style: italic;
+}
+/*working on flip card*/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  padding-left: 10px;
 }
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: black;
+}
 
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: black;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: red;
+  color: white;
+  transform: rotateY(180deg);
+}
+.center{
+  text-align: center;
+}
+.flip_title{
+  color: red;
+}
+.flip_caption{
+ color: red;
+ font-size: 13px;
+}
+.flip_box{
+  background-color: black;
+  text-align: center;
+}
+/*little divider using the rapors app*/
+.app{
+  text-align: center; 
+  padding-bottom: 0;
+  background-color: #753BBD;
+}
