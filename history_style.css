@@ -120,8 +120,96 @@ ul{
 	color: #753BBD;
 	background-color: black;
 }
-.content{
+.content_title{
   padding-top: 0;
   color: red;
   text-align: center;
+  padding-bottom: 40px;
+}
+.content_box{
+  background-image: url("https://images.daznservices.com/di/library/NBA_Global_CMS_image_storage/6/40/raptors-playoff-history-split-playingsurface_n5b12ecu9ikr14nuwi9wzrsvk.png?t=-1184703431&quality=80");
+  background-position:center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+#failure{
+}
+/*working on nav buttons to help navigate the page*/
+.nav_button{ 
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#history_button{
+  padding: 15px 35px;
+  background-color: #B4975A;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+#failure_button{
+  padding: 15px 35px;
+  background-color: #753BBD;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+/*working on failure div*/
+.lebron_james{
+ text-align: center;
+ padding-top: 20px;
+}
+.game_7{
+  text-align: center;
+  padding-top: 20px;
+}
+/*styling for Trivia, plus animations for interactive parts*/
+.flex{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  padding: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: red;
+  color: white;
+  transform: rotateY(180deg);
+}
+#correct{
+  background-color: green;
 }
