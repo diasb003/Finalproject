@@ -3,33 +3,31 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: black;
+}
 /*working on header for page*/
 .header_box {
 	width: 90%;
 	margin: 0 auto;
 }
-
 header {
   background: black;
 }
-
 header::after {
   content: '';
   display: table;
   clear: both;
 }
-
 .rap_logo {
   float: left;
   padding: 10px 0;
   width: 79px;
   height: 79px;
 }
-
 nav {
   float: right;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -48,8 +46,6 @@ nav, ul, li, a{
 nav a:hover{
    color: #753BBD;
 }
-
-
 /*working on footer*/
 footer{
   background-color: black;
@@ -169,21 +165,25 @@ ul{
 }
 
 .flip-card-back {
-  background-color: red;
+  background-color: #B4975A;
   color: white;
   transform: rotateY(180deg);
 }
 .box{
   text-align: center;
   background-color: black;
-  color: red;
-}
-.flip_title{
-
+  color: #B4975A;
 }
 .flip_caption{
   font-size: 13px;
+
 }
 .content_title{
   text-align: center;
+   color: #B4975A;
+  background-color: #3f3f3f;
+}
+.gold_title{
+  color: #B4975A;
+  background-color: #3f3f3f;
 }
