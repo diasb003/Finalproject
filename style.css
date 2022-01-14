@@ -8,11 +8,9 @@
 	width: 90%;
 	margin: 0 auto;
 }
-
 header {
   background: black;
 }
-
 header::after {
   content: '';
   display: table;
@@ -25,11 +23,9 @@ header::after {
   width: 79px;
   height: 79px;
 }
-
 nav {
   float: right;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -51,14 +47,13 @@ nav a:hover{
 /*working on main header*/
 #main_header{
   text-align: center;
-  background-color: black;
+  background-color: #3f3f3f;
   color: red;
   border-top: solid;
   border-width: 3px;
   border-color: #753BBD;
   padding-top: 2px;
   font-size: 40px;
-  
 }
 .red_dash{
   text-align: center;
@@ -150,15 +145,27 @@ color: red;
 font-size: 25px;
 padding-bottom: 10px;
 text-align: center;
+background-color: #3f3f3f;
 }
 .content_p{
 color: red;
-font-size: 15px;
+font-size: 16px;
 padding-bottom: 50px;
-padding-left: 10px;
+padding-left: 20px;
+max-width: 50%;
+background-color: black;
+padding-top: 30px;
+}
+.content_p_box{
+  display: flex;
 }
 .link{
   font-style: italic;
+}
+.logo_box{
+  text-align: right;
+  max-height: 50%;
+  background-color: black;
 }
 /*working on flip card*/
 .flip-card {
@@ -168,7 +175,6 @@ padding-left: 10px;
   perspective: 1000px;
   padding-left: 10px;
 }
-
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -205,6 +211,7 @@ padding-left: 10px;
 }
 .flip_title{
   color: red;
+  background-color: #3f3f3f;
 }
 .flip_caption{
  color: red;
@@ -219,4 +226,6 @@ padding-left: 10px;
   text-align: center; 
   padding-bottom: 0;
   background-color: #753BBD;
+}
+.big_flex{
 }
