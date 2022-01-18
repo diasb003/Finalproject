@@ -6,6 +6,9 @@
 body{
   background-color: black;
 }
+h4, p{
+  color: #B4975A;
+}
 /*working on header for page*/
 .header_box {
 	width: 90%;
@@ -73,7 +76,7 @@ ul{
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
-  font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  font-family: sans-serif;
 }
 
 .footer-col h4::before{
@@ -127,6 +130,9 @@ ul{
   display: table;
 }
 /*Flip card styling*/
+.flip_title{
+  background-color: #3f3f3f;
+}
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -176,14 +182,17 @@ ul{
 }
 .flip_caption{
   font-size: 13px;
-
 }
 .content_title{
   text-align: center;
-   color: #B4975A;
+  color: #B4975A;
   background-color: #3f3f3f;
 }
 .gold_title{
   color: #B4975A;
   background-color: #3f3f3f;
+}
+.description{
+  padding-left: 15px;
+  padding-right: 15px;
 }
