@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /*working on header for page*/
 .header_box {
 	width: 90%;
@@ -23,7 +27,6 @@ header::after {
   display: table;
   clear: both;
 }
-
 .rap_logo {
   float: left;
   padding: 10px 0;
@@ -51,7 +54,7 @@ nav, ul, li, a{
   transition: all 0.5s ease;
 }
 nav a:hover{
-   color: #753BBD;
+   color: #B4975A;
 }
 
 
@@ -82,7 +85,7 @@ ul{
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
-  font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  font-family: sans-serif;
 }
 
 .footer-col h4::before{
@@ -107,7 +110,7 @@ ul{
 /*animation for footer items*/
 .footer-col ul li a:hover{
 	text-decoration: underline;
-  color: #753BBD;
+  color: #B4975A;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -122,13 +125,14 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #753BBD;
+	color: #B4975A;
 	background-color: black;
 }
 .content_title{
   padding-top: 0;
   text-align: center;
   padding-bottom: 40px;
+  color: #B4975A;
 }
 .content_box{
   background-image: url("https://images.daznservices.com/di/library/NBA_Global_CMS_image_storage/6/40/raptors-playoff-history-split-playingsurface_n5b12ecu9ikr14nuwi9wzrsvk.png?t=-1184703431&quality=80");
@@ -137,6 +141,7 @@ ul{
   background-size: cover;
   padding-bottom: 80px;
   padding-top: 40px;
+
 }
 #failure{
 }
@@ -148,7 +153,7 @@ ul{
 }
 #history_button{
   padding: 15px 35px;
-  background-color: #B4975A;
+  background-color: red;
   border: none;
   color: black;
   font-size: 16px;
@@ -160,7 +165,15 @@ ul{
   color: black;
   font-size: 16px;
 }
+/*working on history div*/
+.first_game{
+ text-align: center;
+ padding-top: 30px;
+}
 /*working on failure div*/
+.failure_box{
+  color: #753BBD;
+}
 .lebron_james{
  text-align: center;
  padding-top: 20px;
@@ -183,9 +196,7 @@ ul{
   height: 200px;
   perspective: 1000px;
   padding: 10px;
-
 }
-
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -195,7 +206,6 @@ ul{
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -219,4 +229,45 @@ ul{
 }
 #correct{
   background-color: green;
+}
+/*working on the table*/
+.playoff_title{
+   background-color: #3f3f3f;
+   color: red;
+   margin-bottom: 10px;
+}
+.table {
+    color: black;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+.table td, .table th {
+    text-align: center;
+    padding: 8px;
+}
+.table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+.table thead th {
+    color: black;
+    background: #753BBD;
+}
+.table thead th:nth-child(odd) {
+    color: black;
+    background: red;
+}
+.table tr:nth-child(even) {
+    background: #ffe3e3;
+}
+.table tr:nth-child(odd) {
+    background: #ebd6ff;
 }
