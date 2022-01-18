@@ -138,4 +138,13 @@ ul{
   padding-bottom: 80px;
   text-align: center;
 }
-
+/*working on what happened in 2019 explanation*/
+.box_2019 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+.padding_10px{
+  padding-right: 10px;
+}
